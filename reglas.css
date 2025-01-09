@@ -1,0 +1,78 @@
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+/*Regla 1*/
+*{
+    font-family:"Bona Nova SC";
+}
+/*Regla 2*/
+body{
+    margin: 0;
+    padding: 0 20%;
+}
+/*Regla 3*/
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: darkcyan;
+}
+/*Regla 4*/
+.selector{
+    color: lightcyan;
+}
+/*Regla 5*/
+.selectors{
+    padding : 5%;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+}
+/*Regla 6*/
+#universal{
+    color: lightgoldenrodyellow;
+}
+/*Regla 7*/
+.selector, #universal{
+    background-color: darkcyan;
+    padding : 1%;
+    border-radius: 5px;
+}
+/*Regla 8*/
+span{
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+/*Regla 9*/
+li>a{
+    text-decoration: none;
+}
+/*Regla 10*/
+h3{
+    background: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+/*Regla 11*/
+#gallery div{
+    width: 100%;
+}
+/*Regla 12*/
+img{
+    width: 100%;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+}
